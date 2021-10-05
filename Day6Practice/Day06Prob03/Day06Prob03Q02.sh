@@ -17,10 +17,8 @@ temp=$num;
 if [ $temp -eq $sum ]
 then
     echo "$temp is a Palindrome Number";
-    sum=0;
 else
     echo "$temp is not a Palindrome Number";
-    sum=0;
 fi
 }
 
