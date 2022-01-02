@@ -1,6 +1,6 @@
 head=0;
 tail=0;
-while [ $head -lt 11 -o $tail -lt 11 ]
+while [ $head -lt 11 -a $tail -lt 11 ]
 do
     if [ $(($RANDOM%2)) -eq 0 ]
     then
